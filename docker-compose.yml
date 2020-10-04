@@ -1,0 +1,8 @@
+version: "2.0"
+services:
+  archiver:
+    image: combilog-archiver:1.0.0
+    ports:
+      - "13338:13338"
+    env_file:
+      - .env
