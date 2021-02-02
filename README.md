@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/lewjc/CombiLog-Archiver.svg?style=shield&circle-token=268a495dbf8d3480ffc3bb540e4be1611378af49)](https://app.circleci.com/pipelines/github/lewjc/CombiLog-Archiver)
 
-This Repository is for the Archive micro-service in the CombiLog Stack. It deals with storing all log messages that are processed by combilog.
+This Repository is for the archive micro-service in the CombiLog Stack. It deals with storing all log messages that are processed by combilog as well as clearing messages from the aggregator once the message has been archived succesfully.
 
 ## Environment Variables
 
@@ -26,3 +26,5 @@ To deploy the archive utility you can use the docker-compose command below.
 ```
 $ docker-compose up -d
 ```
+
+For instructions on deploying the full CombiLog Stack, see [here](https://github)
