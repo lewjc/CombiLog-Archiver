@@ -1,7 +1,7 @@
 export const endpoints = {
-	aggreagtor: {
-		message: {
-			delete: "/api/message/{messageId}",
-		},
-	},
+  aggreagtor: {
+    message: {
+      delete: "/api/message/{messageId}",
+    },
+  },
 };
