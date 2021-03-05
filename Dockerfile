@@ -13,7 +13,7 @@ COPY . .
 # RUN npm build
 RUN npx tsc -p ./tsconfig.json
 
-# Now /usr/src/app/dist has the built files.
+# Now /usr/src/app/lib has the built files.
 
 # Second stage: run things.
 FROM node:12
@@ -34,4 +34,4 @@ RUN mkdir -p /usr/src/app/data
 
 # Run the built application when the container starts.
 EXPOSE 13338
-CMD ["pm2-runtime","./lib/index.js"]
+CMD ["pm2-runtime","./lib/src/index.js"]
