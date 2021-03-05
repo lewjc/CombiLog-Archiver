@@ -1,6 +1,6 @@
 {
   "name": "combilog-archiver",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "description": "Archive service for storing registered combilog services",
   "main": "./lib/index.js",
   "scripts": {
