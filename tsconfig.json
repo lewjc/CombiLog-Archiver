@@ -4,7 +4,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "lib": ["es2015"],
-    "rootDir": "./",
+    "rootDir": "./src",
     "outDir": "lib",
     "strict": true,
     "alwaysStrict": true,
@@ -23,9 +23,8 @@
     "experimentalDecorators": true,
     "downlevelIteration": true,
     "declaration": true,
-
+    "composite": true,
     "pretty": true
   },
-  "include": ["typings/**/*", "src/**/*"],
-  "exclude": ["node_modules"]
+  "include": ["src/**/*.ts"]
 }

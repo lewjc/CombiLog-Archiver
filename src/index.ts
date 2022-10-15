@@ -30,6 +30,7 @@ if (
     createDirectory(process.env.COMBILOG_ARCHIVE_ROOT, "archive");
   } catch (e) {
     console.error("Please check value of COMBILOG_ARCHIVE_ROOT.");
+    console.error(e);
     process.exit(1);
   }
   checkHotRecords();
